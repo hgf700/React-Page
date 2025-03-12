@@ -4,8 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div className="container-app">
@@ -18,22 +16,43 @@ function App() {
         <h1 className="przyciski">kontakt</h1>
       </div>
       <div className="content">
-        <label>Strona internetowa</label>
+        <label>Strona internetowa
+        <br/>
         <button type="button" className="przyciski2">
-          Click me
+          kliknij mnie
         </button>
+        </label>
       </div>
       <div className="kafelki-container">
-        <div className="kafelek1">
+        <div className="kafelek">
           <h1>1 rzecz</h1>
           <label> tekst</label>
         </div>
         <div className="kafelek">
-          <div className="kafelek2">
             <h1>2 rzecz</h1>
             <label> tekst</label>
-          </div>
         </div>
+        <div className="kafelek">
+            <h1>3 rzecz</h1>
+            <label> tekst</label>
+        </div>
+      </div>
+      <div className='upfooter'>
+        <label>tytuł nagłówka</label>
+      </div>
+      <div className='footer'>
+        <label className='odstep'>
+          Napisz do nas 
+          </label>
+          <label className='odstep'>
+          Mapka dojazdu 
+          </label>
+          <label className='odstep'>
+          Szybki kontakt
+          </label>
+
+        
+        
       </div>
     </div>
     </>
